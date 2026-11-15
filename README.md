@@ -1,6 +1,6 @@
-# ForgeFit
+# ForgedFitness
 
-A free, lightweight fitness app designed for iPhone. ForgeFit is a Progressive Web App (PWA): open it in Safari and add it to your Home Screen. No paid app subscription, Apple Developer account, AI service, or server is required.
+A free, lightweight fitness app designed for iPhone. ForgedFitness is a Progressive Web App (PWA): open it in Safari and add it to your Home Screen. No paid app subscription, Apple Developer account, AI service, or server is required.
 
 ## Publish it free with GitHub Pages
 
@@ -15,18 +15,18 @@ This repository is public, so GitHub Pages can host it for free:
 7. On your iPhone, open that address in **Safari**.
 8. Tap Safari’s **Share** button, scroll down, tap **Add to Home Screen**, then tap **Add**.
 
-If the Pages screen shows an error or no website address, make sure the repository is public and the selected branch is `main` with `/(root)`. Publishing can take a few minutes after saving.
+If the page is blank after the update, refresh it once. If it was already added to your Home Screen, close it and reopen after refreshing the Safari page so the updated offline app shell can install.
 
 ## Features
 
-- Today dashboard and daily habit checklist.
+- Gym-inspired dashboard and daily habit checklist.
 - Four-day upper/lower strength plan and workout history.
 - Food diary with optional calorie and protein goals.
 - Weight check-ins and history.
 - Daily motivational reminders.
 - Offline app shell and data saved in this device’s browser storage.
 
-The app starts with the approximate weight the user shared (20–21 stone, about 130 kg). Update it using the scale reading you prefer. Calorie and protein goals are left blank rather than guessed. ForgeFit is a general tracker, not medical advice; ask a GP or registered dietitian for tailored guidance.
+The app starts with the approximate weight shared (20–21 stone, about 130 kg). Update it using the scale reading you prefer. Calorie and protein goals are left blank rather than guessed. ForgedFitness is a general tracker, not medical advice; ask a GP or registered dietitian for tailored guidance.
 
 ## Privacy and limitations
 

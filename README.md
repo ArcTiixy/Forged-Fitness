@@ -13,10 +13,9 @@ A free gym-style fitness PWA for iPhone. Open it in Safari and add it to your Ho
 ## Features
 
 - Four-day upper/lower gym workout plan and workout history.
-- Food diary, quick-add meal shortcuts, and your own saved shortcuts.
-- Four easy recipes with ingredients, steps and estimated nutrition; add recipes to the food diary.
-- Active-day streaks and workout milestone badges.
-- Weight check-ins and daily habit checklist.
-- Saves locally in this browser. No account or paid service.
+- Food diary, quick-add meal shortcuts, recipes, and saved shortcuts.
+- Streaks, workout milestones, daily habits, and weight check-ins.
+- On-device macro estimator with editable age, height, weight, activity, equation, and goal pace. It uses a common resting-energy equation and rough macro rules; it is not AI and sends no personal details to a service.
+- No account or paid API required. Data stays in this browser on this device.
 
-Nutrition values in shortcuts and recipes are estimates and depend on ingredients and portions. Targets are optional, not medical advice. Speak with a GP or registered dietitian for personal health guidance. Clearing browser data can erase app entries.
+Macro estimates are for adults only, can be inaccurate, and are not medical advice or a prescription. The estimator caps the planned deficit at 20% of estimated maintenance, but this still may not be suitable for an individual. Do not use it for minors, pregnancy/breastfeeding, eating-disorder history, or medically managed nutrition; consult a GP or registered dietitian. Food nutrition values are estimates and depend on ingredients and portions.

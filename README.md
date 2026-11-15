@@ -1,25 +1,22 @@
 # ForgedFitness
 
-A free, simple gym-inspired fitness app for iPhone. ForgedFitness is a Progressive Web App: publish it with GitHub Pages, open it in a browser, and add it to your Home Screen.
+A free gym-style fitness PWA for iPhone. Open it in Safari and add it to your Home Screen.
 
-## Enable GitHub Pages
+## Publish with GitHub Pages
 
-1. Open the repository **Settings**.
-2. Select **Pages** in the left menu.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/(root)**, then choose **Save**.
-5. Wait a few minutes for GitHub to publish the site. Its address should be `https://arctiixy.github.io/forged-fitness/`.
-6. Open that address in Safari on iPhone. To install, tap **Share → Add to Home Screen**.
-
-If you see an old or blank page after the change, close the page, reopen the URL, and refresh. The service worker now prefers the live page so it can update instead of keeping a stale copy.
+1. Open repository **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Choose **main** and **/(root)**, then press **Save**.
+4. After publishing, open `https://arctiixy.github.io/forged-fitness/` in Safari.
+5. Tap **Share → Add to Home Screen** if you want an app icon.
 
 ## Features
 
-- Gym-inspired daily dashboard and habit checklist.
-- Four-day upper/lower strength training plan.
-- Food diary and optional calorie/protein goals.
-- Weight check-ins and recent history.
-- Daily motivation and workout history.
-- Saves locally in the browser; no login or paid service.
+- Four-day upper/lower gym workout plan and workout history.
+- Food diary, quick-add meal shortcuts, and your own saved shortcuts.
+- Four easy recipes with ingredients, steps and estimated nutrition; add recipes to the food diary.
+- Active-day streaks and workout milestone badges.
+- Weight check-ins and daily habit checklist.
+- Saves locally in this browser. No account or paid service.
 
-This is a general tracker, not medical advice. It leaves nutrition targets blank rather than guessing. Ask a GP or registered dietitian for personal health guidance. Clearing browser data can erase app entries.
+Nutrition values in shortcuts and recipes are estimates and depend on ingredients and portions. Targets are optional, not medical advice. Speak with a GP or registered dietitian for personal health guidance. Clearing browser data can erase app entries.

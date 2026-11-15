@@ -1,33 +1,25 @@
 # ForgedFitness
 
-A free, lightweight fitness app designed for iPhone. ForgedFitness is a Progressive Web App (PWA): open it in Safari and add it to your Home Screen. No paid app subscription, Apple Developer account, AI service, or server is required.
+A free, simple gym-inspired fitness app for iPhone. ForgedFitness is a Progressive Web App: publish it with GitHub Pages, open it in a browser, and add it to your Home Screen.
 
-## Publish it free with GitHub Pages
+## Enable GitHub Pages
 
-This repository is public, so GitHub Pages can host it for free:
+1. Open the repository **Settings**.
+2. Select **Pages** in the left menu.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch **main** and folder **/(root)**, then choose **Save**.
+5. Wait a few minutes for GitHub to publish the site. Its address should be `https://arctiixy.github.io/forged-fitness/`.
+6. Open that address in Safari on iPhone. To install, tap **Share → Add to Home Screen**.
 
-1. Open this repository on GitHub.
-2. Select **Settings** near the top of the repository.
-3. In the left menu, select **Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose branch **main** and folder **/(root)**, then press **Save**.
-6. Wait a minute or two. On the Pages settings screen, GitHub will show the website address, usually `https://arctiixy.github.io/forged-fitness/`.
-7. On your iPhone, open that address in **Safari**.
-8. Tap Safari’s **Share** button, scroll down, tap **Add to Home Screen**, then tap **Add**.
-
-If the page is blank after the update, refresh it once. If it was already added to your Home Screen, close it and reopen after refreshing the Safari page so the updated offline app shell can install.
+If you see an old or blank page after the change, close the page, reopen the URL, and refresh. The service worker now prefers the live page so it can update instead of keeping a stale copy.
 
 ## Features
 
-- Gym-inspired dashboard and daily habit checklist.
-- Four-day upper/lower strength plan and workout history.
-- Food diary with optional calorie and protein goals.
-- Weight check-ins and history.
-- Daily motivational reminders.
-- Offline app shell and data saved in this device’s browser storage.
+- Gym-inspired daily dashboard and habit checklist.
+- Four-day upper/lower strength training plan.
+- Food diary and optional calorie/protein goals.
+- Weight check-ins and recent history.
+- Daily motivation and workout history.
+- Saves locally in the browser; no login or paid service.
 
-The app starts with the approximate weight shared (20–21 stone, about 130 kg). Update it using the scale reading you prefer. Calorie and protein goals are left blank rather than guessed. ForgedFitness is a general tracker, not medical advice; ask a GP or registered dietitian for tailored guidance.
-
-## Privacy and limitations
-
-No login or cloud sync. Entries stay in local browser storage on this device; clearing Safari website data may erase them. This is a home-screen web app, not an App Store native app.
+This is a general tracker, not medical advice. It leaves nutrition targets blank rather than guessing. Ask a GP or registered dietitian for personal health guidance. Clearing browser data can erase app entries.
